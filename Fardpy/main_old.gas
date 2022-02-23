@@ -1,0 +1,36 @@
+# hehe fard dis is a fardy comment
+
+###
+math = 3
+
+fards? math == 3
+  fard "equals"
+farded
+
+fard math
+
+refard helloWorld
+  # fard "Hello World"
+
+  fard-back "Hello World"
+
+  fard "doesnt execute"
+farded
+
+fard !helloWorld
+###
+
+refard repeat_function
+  fards? n == 1
+    fard-back 0
+  farded
+  str += char
+  n -= 1
+  fard-back !repeat_function
+farded
+
+str = ""
+char = "a"
+n = 10
+!repeat_function
+fard "F" + str + "rd"
